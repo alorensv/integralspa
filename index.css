@@ -56,7 +56,7 @@ body {
 .main-header {
   background-color: var(--bg-white);
   padding: 0 5%;
-  height: 70px;
+  height: 84px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #f1f5f9;
@@ -83,6 +83,15 @@ body {
   width: 58px;
   height: 48px;
   flex-shrink: 0;
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+  max-width: 340px;
+  flex-shrink: 0;
+  display: block;
+  object-fit: contain;
 }
 
 .logo-text {
